@@ -1,4 +1,4 @@
-import * as snarkjs from 'snarkjs';
+// import * as snarkjs from 'snarkjs';
 
 export interface HealthData {
   bloodType: string;
