@@ -34,7 +34,7 @@ export default function ProofDisplay({ proof }: ProofDisplayProps) {
   const handleVerify = async () => {
     setVerifying(true);
     try {
-      const isValid = await verifyProof(proof);
+      const isValid = await verifyProof();
       setVerified(isValid);
     } catch (error) {
       setVerified(false);

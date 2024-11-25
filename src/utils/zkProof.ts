@@ -84,7 +84,7 @@ export async function generateProof(data: HealthData): Promise<ProofResult> {
 }
 
 // New verification function for healthcare providers
-export async function verifyProof(proofData: ProofResult): Promise<boolean> {
+export async function verifyProof(): Promise<boolean> {//proofData: ProofResult
   try {
     // Simulate verification process
     await new Promise(resolve => setTimeout(resolve, 500));
